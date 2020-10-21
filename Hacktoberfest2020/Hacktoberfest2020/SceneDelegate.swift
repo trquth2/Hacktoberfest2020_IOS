@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.backgroundColor = .white
         window?.overrideUserInterfaceStyle = .light
         
-        window?.rootViewController = OtherViewsVC()
+        window?.rootViewController = AboutImageVC()
         window?.makeKeyAndVisible()
         
         

@@ -8,22 +8,41 @@
 import UIKit
 
 class AboutImageVC: UIViewController {
+    
+    let bearMan : UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = #imageLiteral(resourceName: "costume")
+        return imageView
+    }()
+    
+    let milk : UIImageView = {
+        let imageView = UIImageView()
+//        if let path = Bundle.main.path(forResource: "milk", ofType: "png"){
+//            imageView.image = UIImage(contentsOfFile: path)
+//        }
+        imageView.image = UIImage(named: "milk")
+        return imageView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        configureView()
     }
     
+    func configureView() {
+        view.addSubview(bearMan)
+        bearMan.translatesAutoresizingMaskIntoConstraints = false
 
-    /*
-    // MARK: - Navigation
+        NSLayoutConstraint.activate([bearMan.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+                                     bearMan.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),])
+        
+        view.addSubview(milk)
+        milk.translatesAutoresizingMaskIntoConstraints = false
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        NSLayoutConstraint.activate([milk.centerXAnchor.constraint(equalTo: self.bearMan.centerXAnchor),
+                                     milk.topAnchor.constraint(equalTo: self.bearMan.bottomAnchor, constant: 40),
+                                     milk.widthAnchor.constraint(equalToConstant: 80),
+                                     milk.heightAnchor.constraint(equalToConstant: 80)])
     }
-    */
-
 }
