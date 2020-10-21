@@ -9,7 +9,6 @@ import UIKit
 
 class AboutImageVC: UIViewController {
     
-    
     let bearMan : UIImageView = {
         let imageView = UIImageView()
         imageView.image = #imageLiteral(resourceName: "costume")
