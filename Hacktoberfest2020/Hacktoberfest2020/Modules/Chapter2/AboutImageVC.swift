@@ -21,6 +21,9 @@ class AboutImageVC: UIViewController {
 //            imageView.image = UIImage(contentsOfFile: path)
 //        }
         imageView.image = UIImage(named: "milk")
+        
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.orange.cgColor
         return imageView
     }()
 
