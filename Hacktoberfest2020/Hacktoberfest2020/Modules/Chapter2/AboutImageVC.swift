@@ -41,8 +41,9 @@ class AboutImageVC: UIViewController {
         milk.translatesAutoresizingMaskIntoConstraints = false
 
         NSLayoutConstraint.activate([milk.centerXAnchor.constraint(equalTo: self.bearMan.centerXAnchor),
-                                     milk.topAnchor.constraint(equalTo: self.bearMan.bottomAnchor, constant: 40),
+                                     milk.topAnchor.constraint(equalTo: self.bearMan.bottomAnchor, constant: 70),
                                      milk.widthAnchor.constraint(equalToConstant: 80),
                                      milk.heightAnchor.constraint(equalToConstant: 80)])
+        
     }
 }
