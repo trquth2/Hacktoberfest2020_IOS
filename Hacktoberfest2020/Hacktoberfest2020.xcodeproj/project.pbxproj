@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E9D7F77254078CD000D6773 /* AboutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D7F76254078CD000D6773 /* AboutImageVC.swift */; };
 		6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A092530A68A0070DA6C /* AppDelegate.swift */; };
 		6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */; };
 		6E9F4A0E2530A68A0070DA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E9D7F76254078CD000D6773 /* AboutImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutImageVC.swift; sourceTree = "<group>"; };
 		6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktoberfest2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9F4A092530A68A0070DA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E9D7F75254078BC000D6773 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				6E9D7F76254078CD000D6773 /* AboutImageVC.swift */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
 		6E9F49FD2530A6890070DA6C = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +169,7 @@
 		6EBDD9E1253A994E00CE693C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6E9D7F75254078BC000D6773 /* Chapter2 */,
 				6EBDD9E3253A997F00CE693C /* Chapter10 */,
 				6EBDD9E2253A995900CE693C /* Chapter12 */,
 			);
@@ -288,6 +299,7 @@
 				6EA8923C253DD01000ADF184 /* Button.swift in Sources */,
 				6E9F4A2C2534BD050070DA6C /* TextInput.swift in Sources */,
 				6EBDD98D25399BDC00CE693C /* Loading.swift in Sources */,
+				6E9D7F77254078CD000D6773 /* AboutImageVC.swift in Sources */,
 				6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */,
 				6EBDD9EB253A9B3200CE693C /* Label.swift in Sources */,
 				6EA89232253DBFC000ADF184 /* OtherViewsVC.swift in Sources */,
