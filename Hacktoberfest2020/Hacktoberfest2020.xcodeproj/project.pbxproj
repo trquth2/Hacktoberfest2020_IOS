@@ -6,6 +6,7 @@
 	objectVersion = 50;
 	objects = {
 
+
 /* Begin PBXBuildFile section */
 		6E9D7F77254078CD000D6773 /* AboutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D7F76254078CD000D6773 /* AboutImageVC.swift */; };
 		6E9D7F7D2540845F000D6773 /* Chapter2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D7F7C2540845F000D6773 /* Chapter2.xcassets */; };
